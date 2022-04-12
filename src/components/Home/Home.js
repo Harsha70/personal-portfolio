@@ -33,7 +33,7 @@ const Home = () => {
           <h1>
             Hi I am Harsha
           </h1>
-          <p style={{ fontSize: "2rem", fontFamily: "monospace", color: "#df0f95" }}>
+          <p style={{ fontSize: "1.5rem", fontFamily: "monospace", color: "#df0f95" }}>
             A Software Developer
           </p>
           <div style={{ display: "flex", gap: "1rem" }}>
