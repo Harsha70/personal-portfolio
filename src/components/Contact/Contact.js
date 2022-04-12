@@ -1,7 +1,32 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Contact.css'
-
+const Contactlinks=[
+  {
+    media:'https://www.linkedin.com/in/harsha-manyam-2aab28133/',
+    icon:'https://i.postimg.cc/m2mg2Hjm/linkedin.png',
+    name:'linkedin'
+  },
+  {
+    media:'https://github.com/Harsha70',
+    icon:'https://i.postimg.cc/YCV2QBJg/github.png',
+    name:'github'
+  },
+  {
+    media:'',
+    icon:'https://i.postimg.cc/W4Znvrry/codepen.png',
+    name:'codepen'
+  },
+  {
+    media:'',
+    icon:'https://i.postimg.cc/NjLfyjPB/email.png',
+    name:'email'
+  },
+]
 const Contact = () => {
+  const handlemedia = (media) => {
+    window.open(media)
+  }
   return (
     <div>
       <section id="contact">
@@ -9,18 +34,17 @@ const Contact = () => {
           <div className="contact-links">
             <h2 className='contact-size'>CONTACT</h2>
             <div className="links">
-              <div className="eachlink">
-                <a href='https://www.linkedin.com/in/harsha-manyam-2aab28133/'><img className='imgstyle' src="https://i.postimg.cc/m2mg2Hjm/linkedin.png" alt="linkedin" /></a>
+              {Contactlinks.map((contact, index)=>{
+                return <div map={index} className="eachlink">
+                  {
+                  contact.media ? 
+                  <Link to='/contact' onClick={()=>handlemedia(contact.media)} ><img className='imgstyle' src={contact.icon} alt={contact.name} /></Link>
+                  :
+                  <Link to='/contact' ><img className='imgstyle' src={contact.icon} alt={contact.name} /></Link>
+                  }
+                
               </div>
-              <div className="eachlink">
-                <a href='https://github.com/Harsha70'><img className='imgstyle' src="https://i.postimg.cc/YCV2QBJg/github.png" alt="github" /></a>
-              </div>
-              <div className="eachlink">
-                <a href='/contact'><img className='imgstyle' src="https://i.postimg.cc/W4Znvrry/codepen.png" alt="codepen" /></a>
-              </div>
-              <div className="eachlink">
-                <a href='/contact'><img className='imgstyle' src="https://i.postimg.cc/NjLfyjPB/email.png" alt="email" /></a>
-              </div>
+              })}              
             </div>
           </div>
           <div className="contact-form-wrapper">
