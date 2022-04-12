@@ -1,18 +1,18 @@
 const projects = [
     {
-        title: "Movie App",
-        image: `https://user-images.githubusercontent.com/29236686/162419160-198a94d6-88ae-460e-b2a5-0e05c71cc997.svg`,
-        description: "It's a Movie application based on the public movie apis. We can bookmark a movie to watch it later",
-        link: "https://movie-app123.netlify.app/",
-        source: "https://github.com/Harsha70/Movieapp",
-    },
-    {
         title: "E-commerce Store",
         image: `https://user-images.githubusercontent.com/29236686/162415844-82332478-77d4-4b44-ae7d-f7b9ff49abb2.svg`,
         description: "Its an E-commerce application. We can view each items and can add to the cart. It have search and pagination features. Added Razor pay payment option after checking out the items",
         link: "https://super-smart-store.herokuapp.com/",
         source: "https://github.com/Harsha70/Super-store",
     }, 
+    {
+        title: "Movie App",
+        image: `https://user-images.githubusercontent.com/29236686/162419160-198a94d6-88ae-460e-b2a5-0e05c71cc997.svg`,
+        description: "It's a Movie application based on the public movie apis. We can bookmark a movie to watch it later",
+        link: "https://movie-app123.netlify.app/",
+        source: "https://github.com/Harsha70/Movieapp",
+    },
     {
         title: "Event-Calendar",
         image: `https://user-images.githubusercontent.com/29236686/162422716-d6fe4a2a-2749-4d92-a935-6f3bece26180.svg`,
