@@ -16,10 +16,10 @@ const Contact = () => {
                 <a href='https://github.com/Harsha70'><img className='imgstyle' src="https://i.postimg.cc/YCV2QBJg/github.png" alt="github" /></a>
               </div>
               <div className="eachlink">
-                <a href='https://codepen.io/'><img className='imgstyle' src="https://i.postimg.cc/W4Znvrry/codepen.png" alt="codepen" /></a>
+                <a href='/contact'><img className='imgstyle' src="https://i.postimg.cc/W4Znvrry/codepen.png" alt="codepen" /></a>
               </div>
               <div className="eachlink">
-                <a href=''><img className='imgstyle' src="https://i.postimg.cc/NjLfyjPB/email.png" alt="email" /></a>
+                <a href='/contact'><img className='imgstyle' src="https://i.postimg.cc/NjLfyjPB/email.png" alt="email" /></a>
               </div>
             </div>
           </div>
