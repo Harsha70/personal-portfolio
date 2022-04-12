@@ -1,19 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap'); */
-
-/* * {
-  margin: 0;
-  box-sizing: border-box;
-} */
-
-/* body {
-  background-color: #6a9ac4;
-} */
 
 #contact {
-  /* background-color: #6a9ac4; */
-  /* background-color: #6589d1; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,20 +19,7 @@
 
 .contact-links {
   background-color: #1f2e43;
-  background:
-    /* radial-gradient(
-      circle at 55% 92%, #426691 0 12%, transparent 12.2%
-    ), 
-    radial-gradient(
-      circle at 94% 72%, #426691 0 10%, transparent 10.2%
-    ), 
-    radial-gradient(
-      circle at 20% max(78%, 350px), #263a53 0 7%, transparent 7.2%
-    ), 
-    radial-gradient(
-      circle at 0% 0%, #263a53 0 40%, transparent 40.2%
-    ),  */
-    #1f2e43;
+  background:#1f2e43;
   border-radius: 10px 0 0 10px;
 }
 
@@ -55,15 +28,6 @@
   background-color: #6589d1;
   border-radius: 0 10px 10px 0;
 }
-
-/* .textarea{
-    width: 1rem;
-    height: 1rem;
-} */
-
-/* #editor-container {
-    height: 375px;
-  } */
 
 @media only screen and (max-width: 800px) {
   .contact-links, .contact-form-wrapper {
