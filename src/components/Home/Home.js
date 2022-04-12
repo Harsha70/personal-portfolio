@@ -13,6 +13,12 @@ const introStyle = {
     display: 'flex'
 }
 
+const imgStyle = { 
+  height: "18rem", 
+  padding: "40px",
+  maxWidth:"-webkit-fill-available",
+ }
+
 const Home = () => {
   // console.log(FLATICON)
   const iconCategorys = [...new Set(FLATICON.map(icon => icon.Category))]
@@ -20,7 +26,7 @@ const Home = () => {
     <>
       <div className="row">
         <div className="col-md-6 container">
-          <img src="https://user-images.githubusercontent.com/29236686/162905643-9f4b08b2-a38b-408c-a587-e97bbe706625.png" className="rounded mx-auto d-block" style={{ height: "18rem", padding: "40px" }} alt=""></img>
+          <img src="https://user-images.githubusercontent.com/29236686/162905643-9f4b08b2-a38b-408c-a587-e97bbe706625.png" className="rounded mx-auto d-block" style={imgStyle} alt=""></img>
         </div>
         <div className="col-md-6" style={introStyle}>
           <div className='mx-auto'>
