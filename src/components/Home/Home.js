@@ -3,6 +3,7 @@ import React from 'react'
 import FLATICON from './data'
 import Tech from './Tech'
 import Resume from '../../pdf/Harsha_resume.pdf'
+import { Link } from 'react-router-dom'
 
 const introStyle = {
   margin: 'auto',
@@ -31,7 +32,7 @@ const Home = () => {
           </p>
           <div style={{ display: "flex", gap: "1rem" }}>
             <a className="btn btn-primary" href={Resume} rel="noreferrer" target="_blank">Resume</a>
-            <a className="btn btn-primary" href='/contact'>Hire Me</a>
+            <Link className="btn btn-primary" to='/contact'>Hire Me</Link>
           </div>
           {/* <Socialmedia /> */}
           </div>
