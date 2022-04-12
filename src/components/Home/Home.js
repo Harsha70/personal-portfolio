@@ -1,5 +1,5 @@
 import React from 'react'
-import Socialmedia from './Socialmedia'
+// import Socialmedia from './Socialmedia'
 import FLATICON from './data'
 import Tech from './Tech'
 import Resume from '../../pdf/Harsha_resume.pdf'
@@ -19,7 +19,7 @@ const Home = () => {
     <>
       <div className="row">
         <div className="col-md-6 container">
-          <img src="https://raw.githubusercontent.com/Harsha70/portfolio/main/images/webdev.png" className="rounded mx-auto d-block" style={{ height: "18rem", padding: "40px" }} alt="Photo"></img>
+          <img src="https://user-images.githubusercontent.com/29236686/162905643-9f4b08b2-a38b-408c-a587-e97bbe706625.png" className="rounded mx-auto d-block" style={{ height: "18rem", padding: "40px" }} alt=""></img>
         </div>
         <div className="col-md-6" style={introStyle}>
           <div className='mx-auto'>
@@ -30,8 +30,8 @@ const Home = () => {
             A Software Developer
           </p>
           <div style={{ display: "flex", gap: "1rem" }}>
-            <a className="btn btn-primary" href={Resume} target="_blank">Resume</a>
-            <a className="btn btn-primary">Hire Me</a>
+            <a className="btn btn-primary" href={Resume} rel="noreferrer" target="_blank">Resume</a>
+            <a className="btn btn-primary" href='/contact'>Hire Me</a>
           </div>
           {/* <Socialmedia /> */}
           </div>

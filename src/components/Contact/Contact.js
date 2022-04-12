@@ -10,16 +10,16 @@ const Contact = () => {
             <h2 className='contact-size'>CONTACT</h2>
             <div className="links">
               <div className="eachlink">
-                <a><img className='imgstyle' src="https://i.postimg.cc/m2mg2Hjm/linkedin.png" alt="linkedin" /></a>
+                <a href='https://www.linkedin.com/in/harsha-manyam-2aab28133/'><img className='imgstyle' src="https://i.postimg.cc/m2mg2Hjm/linkedin.png" alt="linkedin" /></a>
               </div>
               <div className="eachlink">
-                <a><img className='imgstyle' src="https://i.postimg.cc/YCV2QBJg/github.png" alt="github" /></a>
+                <a href='https://github.com/Harsha70'><img className='imgstyle' src="https://i.postimg.cc/YCV2QBJg/github.png" alt="github" /></a>
               </div>
               <div className="eachlink">
-                <a><img className='imgstyle' src="https://i.postimg.cc/W4Znvrry/codepen.png" alt="codepen" /></a>
+                <a href='https://codepen.io/'><img className='imgstyle' src="https://i.postimg.cc/W4Znvrry/codepen.png" alt="codepen" /></a>
               </div>
               <div className="eachlink">
-                <a><img className='imgstyle' src="https://i.postimg.cc/NjLfyjPB/email.png" alt="email" /></a>
+                <a href=''><img className='imgstyle' src="https://i.postimg.cc/NjLfyjPB/email.png" alt="email" /></a>
               </div>
             </div>
           </div>
