@@ -1,0 +1,80 @@
+:root {
+    --primary-color: #c9255b;
+    --off-white: #f3f4f6;
+    --dark-gray: #6b7280;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgStyle {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background: #6589d1;
+    transition: all 1s
+}
+
+.imgStyle:hover {
+    transform: scale(1.1);
+}
+
+.link {
+    text-align: center;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 3px 3px;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+.source-link {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px 10px 0px 20px;
+}
+
+.project {
+    position: relative;
+    overflow: hidden;
+}
+
+.project-over {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    color: #22254b;
+    padding: 1rem;
+    transform: translateY(102%);
+    transition: transform 1s ease-in-out;
+    overflow: auto;
+    max-height: 100%;
+}
+
+.project:hover .project-over {
+    transform: translateX(0%);
+    /* display: block; */
+  }
