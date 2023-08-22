@@ -14,6 +14,13 @@ const projects = [
         source:"https://stackblitz.com/edit/stackblitz-starters-unkwzp?file=src%2Findex.js",
     },
     {
+        title: "Robo Friends",
+        image: `https://github-production-user-asset-6210df.s3.amazonaws.com/29236686/262483448-456d766b-0a06-4cbb-a211-b6dffbf44acb.svg`,
+        description: "Created a small funny web-application with name filter functionality. A good demonstration of the component and state usage inside ReactJS.",
+        link: "harsha70.github.io/RobotBuddies/",
+        source:"https://github.com/Harsha70/RobotBuddies",
+    },
+    {
         title: "Flickgram",
         image: `https://user-images.githubusercontent.com/29236686/162423174-d7d69204-b444-41ef-bdfb-7cc782535a89.svg`,
         description: "It a photo sharing application. Initially people have to sign in with google authentication and upload their photos and like other photos. But can only delete their own photos. Firebase is used to store images in the backend",
