@@ -7,6 +7,13 @@ const projects = [
         source: "https://github.com/Harsha70/Movieapp",
     },
     {
+        title: "Travel Plan",
+        image: `https://github-production-user-asset-6210df.s3.amazonaws.com/29236686/262477384-204d0822-5f17-4169-abdf-19a41304f1e1.svg`,
+        description: "This application keeps track of the items that we need for travelling.",
+        link: "https://stackblitz-starters-unkwzp.stackblitz.io",
+        source:"https://stackblitz.com/edit/stackblitz-starters-unkwzp?file=src%2Findex.js",
+    },
+    {
         title: "Flickgram",
         image: `https://user-images.githubusercontent.com/29236686/162423174-d7d69204-b444-41ef-bdfb-7cc782535a89.svg`,
         description: "It a photo sharing application. Initially people have to sign in with google authentication and upload their photos and like other photos. But can only delete their own photos. Firebase is used to store images in the backend",
