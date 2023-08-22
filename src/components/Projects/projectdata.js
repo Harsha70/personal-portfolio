@@ -17,7 +17,7 @@ const projects = [
         title: "Robo Friends",
         image: `https://github-production-user-asset-6210df.s3.amazonaws.com/29236686/262483448-456d766b-0a06-4cbb-a211-b6dffbf44acb.svg`,
         description: "Created a small funny web-application with name filter functionality. A good demonstration of the component and state usage inside ReactJS.",
-        link: "harsha70.github.io/RobotBuddies/",
+        link: "https://harsha70.github.io/RobotBuddies/",
         source:"https://github.com/Harsha70/RobotBuddies",
     },
     {
