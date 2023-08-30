@@ -2,7 +2,7 @@ import React from 'react'
 // import Socialmedia from './Socialmedia'
 import FLATICON from './data'
 import Tech from './Tech'
-import Resume from '../../pdf/Harsha_resume.pdf'
+import Resume from '../../pdf/Harsha_Resume.pdf'
 import { Link } from 'react-router-dom'
 
 const introStyle = {
