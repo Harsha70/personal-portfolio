@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './Contact.css'
 const Contactlinks=[
   {
-    media:'https://www.linkedin.com/in/harsha-manyam-2aab28133/',
+    media:'https://www.linkedin.com/in/manyamharsha123/',
     icon:'https://i.postimg.cc/m2mg2Hjm/linkedin.png',
     name:'linkedin'
   },
