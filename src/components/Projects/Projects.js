@@ -21,7 +21,7 @@ const Projects = () => {
                   <a className="link link-secondary" style={{ color: `rgb(201 37 91)` }} href={project.source} rel="noreferrer" target="_blank">View Source</a>
                 </div>
               </div>
-  <h2>{project.title}</h2>
+  <p>{project.title}</p>
             </div>)
           })
         }
