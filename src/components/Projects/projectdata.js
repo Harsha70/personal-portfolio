@@ -7,6 +7,13 @@ const projects = [
         source: "https://github.com/Harsha70/Ecommerce_app",
     },
     {
+        title: "Dine Finder",
+        image: `https://user-images.githubusercontent.com/29236686/162415844-82332478-77d4-4b44-ae7d-f7b9ff49abb2.svg`,
+        description: "",
+        link: "https://github.com/Harsha70/find_a_restaurant",
+        source: "https://www.youtube.com/watch?v=0ct6e08oqIo",
+    },
+    {
         title: "Movie App",
         image: `https://user-images.githubusercontent.com/29236686/162419160-198a94d6-88ae-460e-b2a5-0e05c71cc997.svg`,
         description: "It's a Movie application based on the public movie apis. We can bookmark a movie to watch it later",
