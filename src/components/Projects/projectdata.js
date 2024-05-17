@@ -8,8 +8,8 @@ const projects = [
     },
     {
         title: "Dine Finder",
-        image: `https://user-images.githubusercontent.com/29236686/162415844-82332478-77d4-4b44-ae7d-f7b9ff49abb2.svg`,
-        description: "",
+        image: `https://github.com/Harsha70/personal-portfolio/assets/29236686/859eff2e-b0b6-4e43-8526-2a6402de9669`,
+        description: "This mobile application assists users in discovering restaurants in a specific city. It allows users to view the menu items available at each restaurant and place orders directly through the app.",
         link: "https://github.com/Harsha70/find_a_restaurant",
         source: "https://www.youtube.com/watch?v=0ct6e08oqIo",
     },
