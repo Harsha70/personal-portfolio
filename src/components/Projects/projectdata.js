@@ -7,6 +7,13 @@ const projects = [
         source: "https://github.com/Harsha70/Ecommerce_app",
     },
     {
+        title: "Nature Tour Application",
+        image: `https://github.com/Harsha70/NatureTour/assets/29236686/7bc32753-00a6-4717-9033-37e56b874436`,
+        description: "It shows the list of tours available on the website and we can see the details of the tour",
+        link: "https://naturetour.onrender.com/",
+        source: "https://github.com/Harsha70/NatureTour",
+    },
+    {
         title: "Dine Finder",
         image: `https://github.com/Harsha70/personal-portfolio/assets/29236686/859eff2e-b0b6-4e43-8526-2a6402de9669`,
         description: "This mobile application assists users in discovering restaurants in a specific city. It allows users to view the menu items available at each restaurant and place orders directly through the app.",
