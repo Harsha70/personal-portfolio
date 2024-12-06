@@ -10,7 +10,7 @@ const projects = [
         title: "Expense Tracker",
         image: `https://github.com/Harsha70/personal-portfolio/assets/29236686/48b1a940-f05d-43b8-bddd-8fd9b0052e65`,
         description: "",
-        link: "https://expense-tracker-ogbq.onrender.com/",
+        link: "https://expense-tracker-1-6h9w.onrender.com/login",
         source: "https://github.com/Harsha70/Expense-tracker",
     },
     {
