@@ -1,5 +1,12 @@
 const projects = [
     {
+        title: "Disaster Management",
+        image: `https://github.com/user-attachments/assets/bd5f8855-bab9-4b1e-b88a-924c2cdac7db`,
+        description: "This website informs what are the steps small scale business should take before, during and after the diaster",
+        link: "https://beforeduringafter.txst.edu/",
+        source: "https://beforeduringafter.txst.edu/",
+    },
+    {
         title: "E-commerce Clothing Application",
         image: `https://user-images.githubusercontent.com/29236686/162415844-82332478-77d4-4b44-ae7d-f7b9ff49abb2.svg`,
         description: "It's an e-commerce application for apparel. We can view different sections and items and can add them to the cart. Added a payment option after checking out the items.",
